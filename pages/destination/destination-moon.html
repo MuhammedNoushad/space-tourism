@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../../assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="../../style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      crossorigin="anonymous"
+    />
+
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body class="destination-body">
+    <header>
+      <nav class="nav" id="nav">
+        <img
+          src="../../assets/shared/logo.svg"
+          alt="logo space tourism"
+          class="logo"
+        />
+        <div class="menu-icon" id="menu-icon">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+
+        <div class="nav-list-wrapper" id="nav-list-wrapper">
+          <div class="nav-list-container">
+            <div class="nav-close" id="nav-close">
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+
+            <ul class="nav-list" id="nav-list">
+              <li class="nav-item">
+                <a href="../../index.html"
+                  ><strong class="nav-number">00</strong> Home</a
+                >
+              </li>
+              <li class="nav-item active">
+                <a href="destination-moon.html"
+                  ><strong class="nav-number">01</strong> Destination</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="../crew/crew-commander.html"
+                  ><strong class="nav-number">02</strong> Crew</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="../technology/technology-vehicle.html"
+                  ><strong class="nav-number">03</strong> Technology</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="destination-container">
+        <div class="destination-heading">
+          <strong class="destination-number">01</strong> PICK YOUR DESTINATION
+        </div>
+
+        <div class="destination-wrapper">
+          <div class="destination-image">
+            <img src="../../assets/destination/image-moon.png" alt="moon" />
+          </div>
+
+          <div class="destination-content">
+            <div class="destination-nav-wrapper">
+              <ul class="destination-nav">
+                <li class="destination-nav-item active">
+                  <a href="destination-moon.html">MOON</a>
+                </li>
+
+                <li class="destination-nav-item">
+                  <a href="destination-mars.html">MARS</a>
+                </li>
+
+                <li class="destination-nav-item">
+                  <a href="destination-europa.html">EUROPA</a>
+                </li>
+
+                <li class="destination-nav-item">
+                  <a href="destination-titan.html">TITAN</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="destination-info">
+              <h1 class="destination-title">MOON</h1>
+
+              <p class="destination-description">
+                See our planet as you’ve never seen it before. A perfect
+                relaxing trip away to help regain perspective and come back
+                refreshed. While you’re there, take in some history by visiting
+                the Luna 2 and Apollo 11 landing sites.
+              </p>
+            </div>
+
+            <hr class="destination-hr" />
+
+            <div class="destination-footer-wrapper">
+              <div class="destination-footer">
+                <div class="destination-footer-title">Avg. distance</div>
+                <div class="destination-footer-value">384,400 km</div>
+              </div>
+
+              <div class="destination-footer">
+                <div class="destination-footer-title">Est. travel time</div>
+                <div class="destination-footer-value">3 days</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="../../script.js"></script>
+  </body>
+</html>

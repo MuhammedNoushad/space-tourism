@@ -8,7 +8,7 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="../assets/favicon-32x32.png"
+      href="../../assets/favicon-32x32.png"
     />
     <link rel="stylesheet" href="../../style.css" />
     <link
@@ -66,53 +66,59 @@
 
     <main>
       <div class="destination-container">
-        <div class="destination-heading">01 PICK YOUR DESTINATION</div>
-
-        <div class="destination-image">
-          <img src="../../assets/destination/image-moon.png" alt="moon" />
+        <div class="destination-heading">
+          <strong class="destination-number">01</strong> PICK YOUR DESTINATION
         </div>
 
-        <div>
-          <div>
-            <ul class="destination-nav">
-              <li class="destination-nav-item">
-                <a href="destination-moon.html">Moon</a>
-              </li>
-
-              <li class="destination-nav-item">
-                <a href="destination-mars.html">Mars</a>
-              </li>
-
-              <li class="destination-nav-item">
-                <a href="destination-moon.html">Europa</a>
-              </li>
-
-              <li class="destination-nav-item">
-                <a href="destination-mars.html">Titan</a>
-              </li>
-            </ul>
+        <div class="destination-wrapper">
+          <div class="destination-image">
+            <img src="../../assets/destination/image-moon.png" alt="moon" />
           </div>
 
-          <div>
-            <h1 class="destination-title">MOON</h1>
+          <div class="destination-content">
+            <div class="destination-nav-wrapper">
+              <ul class="destination-nav">
+                <li class="destination-nav-item active">
+                  <a href="destination-moon.html">MOON</a>
+                </li>
 
-            <p class="destination-description">
-              See our planet as you’ve never seen it before. A perfect relaxing
-              trip away to help regain perspective and come back refreshed.
-              While you’re there, take in some history by visiting the Luna 2
-              and Apollo 11 landing sites.
-            </p>
-          </div>
+                <li class="destination-nav-item">
+                  <a href="destination-mars.html">MARS</a>
+                </li>
 
-          <div>
-            <div class="destination-distance">
-              Avg. distance
-              <span class="destination-distance-value">384,400 km</span>
+                <li class="destination-nav-item">
+                  <a href="destination-europa.html">EUROPA</a>
+                </li>
+
+                <li class="destination-nav-item">
+                  <a href="destination-titan.html">TITAN</a>
+                </li>
+              </ul>
             </div>
 
-            <div class="destination-travel">
-              Est. travel time
-              <span class="destination-travel-value">3 days</span>
+            <div class="destination-info">
+              <h1 class="destination-title">MOON</h1>
+
+              <p class="destination-description">
+                See our planet as you’ve never seen it before. A perfect
+                relaxing trip away to help regain perspective and come back
+                refreshed. While you’re there, take in some history by visiting
+                the Luna 2 and Apollo 11 landing sites.
+              </p>
+            </div>
+
+            <hr class="destination-hr" />
+
+            <div class="destination-footer-wrapper">
+              <div class="destination-footer">
+                <div class="destination-footer-title">Avg. distance</div>
+                <div class="destination-footer-value">384,400 km</div>
+              </div>
+
+              <div class="destination-footer">
+                <div class="destination-footer-title">Est. travel time</div>
+                <div class="destination-footer-value">3 days</div>
+              </div>
             </div>
           </div>
         </div>

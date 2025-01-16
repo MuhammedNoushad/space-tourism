@@ -11,21 +11,80 @@
       href="./assets/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      crossorigin="anonymous"
+    />
 
     <title>Frontend Mentor | Space tourism website</title>
   </head>
   <body>
     <header>
-      <nav>00 Home 01 Destination 02 Crew 03 Technology</nav>
+      <nav class="nav" id="nav">
+        <img
+          src="./assets/shared/logo.svg"
+          alt="logo space tourism"
+          class="logo"
+        />
+        <div class="menu-icon" id="menu-icon">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+
+        <div class="nav-list-wrapper" id="nav-list-wrapper">
+          <div class="nav-list-container">
+            <div class="nav-close" id="nav-close">
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+
+            <ul class="nav-list" id="nav-list">
+              <li class="nav-item active">
+                <a href="index.html"
+                  ><strong class="nav-number">00</strong> Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="destination-moon.html"
+                  ><strong class="nav-number">01</strong> Destination</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="crew-commander.html"
+                  ><strong class="nav-number">02</strong> Crew</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="technology-vehicle.html"
+                  ><strong class="nav-number">03</strong> Technology</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
+
     <main>
-      <div>
-        So, you want to travel to Space Let’s face it; if you want to go to
-        space, you might as well genuinely go to outer space and not hover kind
-        of on the edge of it. Well sit back, and relax because we’ll give you a
-        truly out of this world experience!
+      <div class="content">
+        <div class="content-text">
+          <h6 class="content-subtitle">So, you want to travel to</h6>
+
+          <h1 class="content-title">Space</h1>
+
+          <p class="content-description">
+            Let’s face it; if you want to go to space, you might as well
+            genuinely go to outer space and not hover kind of on the edge of it.
+            Well sit back, and relax because we’ll give you a truly out of this
+            world experience!
+          </p>
+        </div>
+
+        <div class="explore">
+          <a href="destination-moon.html" class="explore-button">EXPLORE</a>
+        </div>
       </div>
-      <div><a href="">Explore</a></div>
     </main>
+
+    <script src="script.js"></script>
   </body>
 </html>
